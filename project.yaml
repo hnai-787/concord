@@ -1,0 +1,55 @@
+name: Bank Contingency & Compliance Framework
+slug: hbl-contingency-framework
+
+category: cybersecurity
+subcategory: "Information Assurance coursework"
+
+status: completed
+
+visibility: public
+
+description:
+  short: "A hypothetical compliance, risk, and incident-response contingency framework modeled on a commercial bank, mapped to SBP/ISO 27001/PCI DSS/NIST CSF."
+  long: |
+    An academic contingency-planning framework using Habib Bank Limited
+    (HBL) as a reference organization for a hypothetical, illustrative
+    analysis — explicitly not a representation of HBL's actual confidential
+    systems, controls, or compliance status. Covers a compliance-framework
+    mapping (SBP, ISO/IEC 27001, PCI DSS, NIST CSF), a risk register,
+    illustrative RTO/RPO tables for core banking/online banking/payments/
+    call centers, an incident-response procedure, and a 5-phase
+    implementation roadmap. Built for an Information Assurance course (Air
+    University, Semester 3, Fall 2024).
+
+technologies: []
+tags: ["cybersecurity", "information-assurance", "risk-management", "compliance", "business-continuity"]
+
+repository:
+  provider: github
+  visibility: public
+  sync: true
+
+portfolio:
+  enabled: true
+  featured: false
+
+documentation:
+  readme: true
+  case_study: false
+
+dates:
+  started: null
+  completed: null
+
+links:
+  github: null
+  demo: null
+  documentation: null
+
+assets:
+  hero: null
+  screenshots: []
+
+achievements: []
+
+metrics: []
