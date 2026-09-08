@@ -1,4 +1,4 @@
-# Bank Contingency & Compliance Framework + grcmap
+# grcmap — Compliance Gap-Analysis Toolkit + Bank Contingency Framework
 
 ## Course Information
 
