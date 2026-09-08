@@ -1,0 +1,107 @@
+organization:
+  id: meridian-bank
+  name: Meridian Bank
+  type: fictional-commercial-bank
+  jurisdiction: PK
+  disclaimer: Synthetic organization used for academic and software demonstration purposes. No control
+    status represents any real institution.
+controls:
+- id: GOV-01
+  title: Security governance program
+  owner: CISO Office
+- id: GOV-02
+  title: Risk management strategy and appetite
+  owner: CISO Office
+- id: IAM-01
+  title: Identity lifecycle management
+  owner: IAM Team
+- id: IAM-02
+  title: Multi-factor authentication
+  owner: IAM Team
+- id: IAM-03
+  title: Privileged access management
+  owner: IAM Team
+- id: NET-01
+  title: Network segmentation
+  owner: Network Engineering
+- id: NET-02
+  title: Network security controls (firewalls/IDS)
+  owner: Network Engineering
+- id: LOG-01
+  title: Centralized logging and monitoring
+  owner: SOC
+- id: LOG-02
+  title: Clock synchronization
+  owner: Infrastructure
+- id: VUL-01
+  title: Vulnerability management
+  owner: Security Engineering
+- id: VUL-02
+  title: Penetration testing program
+  owner: Security Engineering
+- id: SDLC-01
+  title: Secure development lifecycle
+  owner: Engineering
+- id: SDLC-02
+  title: Change management
+  owner: Engineering
+- id: BCP-01
+  title: Business continuity planning
+  owner: Operational Resilience
+- id: DR-01
+  title: Disaster recovery / ICT resilience
+  owner: Operational Resilience
+- id: TPRM-01
+  title: Third-party / supplier risk management
+  owner: Procurement
+- id: IR-01
+  title: Incident response program
+  owner: SOC
+- id: IR-02
+  title: Incident evidence collection and forensics
+  owner: SOC
+- id: DAT-01
+  title: Encryption of data at rest and in transit
+  owner: Security Engineering
+- id: DAT-02
+  title: Data classification and labeling
+  owner: Data Governance
+- id: DAT-03
+  title: Data retention and secure disposal
+  owner: Data Governance
+- id: PHY-01
+  title: Physical access controls
+  owner: Facilities
+- id: PHY-02
+  title: Environmental protection of facilities
+  owner: Facilities
+- id: HR-01
+  title: Personnel screening
+  owner: Human Resources
+- id: HR-02
+  title: Security awareness training
+  owner: Human Resources
+- id: CLD-01
+  title: Cloud service security
+  owner: Cloud Platform Team
+- id: CFG-01
+  title: Secure configuration baseline management
+  owner: Infrastructure
+- id: MAL-01
+  title: Malware protection
+  owner: Security Engineering
+- id: AST-01
+  title: Asset inventory management
+  owner: IT Operations
+- id: AUD-01
+  title: Independent security review / internal audit
+  owner: Internal Audit
+- id: PRIV-01
+  title: Privacy and PII protection
+  owner: Data Governance
+- id: CRY-01
+  title: Cryptographic key management
+  owner: Security Engineering
+- id: WEB-01
+  title: Web / application filtering
+  owner: Network Engineering

@@ -1,0 +1,35 @@
+# Explicit, reviewed collective-coverage assertions (research brief
+# section 12): used ONLY when a single control's relationship is not
+# enough by itself (subset/intersects), but the reviewer has determined
+# the SET of controls together fully covers the target requirement.
+# Never inferred automatically by summing individual "partial" mappings.
+coverage_assertions:
+  - target:
+      framework: pci-dss-4.0.1
+      control: '10'
+    sources: [LOG-01, LOG-02]
+    result: full
+    rationale: >
+      Centralized logging (LOG-01) covers log generation, retention, and
+      access-event capture; clock synchronization (LOG-02) covers the
+      distinct time-integrity sub-element. Taken together, these two
+      controls address the full scope of Requirement 10 as implemented
+      at Meridian Bank.
+    evidence:
+      - system/siem-deployment
+      - config/ntp-baseline
+
+  - target:
+      framework: sbp-etgrm-2017
+      control: '5'
+    sources: [BCP-01, DR-01]
+    result: full
+    rationale: >
+      The business continuity plan (BCP-01) covers organizational
+      continuity planning and the disaster-recovery runbook/DR site
+      (DR-01) covers the ICT resilience component. Taken together, these
+      two controls address the full scope of ETGRM Section 5 (Business
+      Continuity and Disaster Recovery) as implemented at Meridian Bank.
+    evidence:
+      - plan/business-continuity-plan-2026
+      - plan/dr-runbook

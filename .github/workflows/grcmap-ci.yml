@@ -1,0 +1,42 @@
+name: grcmap CI
+
+on:
+  push:
+    paths:
+      - "grcmap/**"
+      - ".github/workflows/grcmap-ci.yml"
+  pull_request:
+    paths:
+      - "grcmap/**"
+      - ".github/workflows/grcmap-ci.yml"
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: grcmap
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Install package and dev dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Lint (Ruff)
+        run: ruff check src tests scripts
+
+      - name: Test (pytest)
+        run: pytest -q
+
+      - name: Validate and regenerate the full report
+        run: |
+          grcmap validate
+          grcmap report --format markdown -o /tmp/report.md

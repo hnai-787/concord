@@ -1,0 +1,245 @@
+mappings:
+- id: map-nist-csf-2.0-001
+  source: GOV-01
+  target:
+    framework: nist-csf-2.0
+    control: GV.PO-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Governance program establishes policy beyond the single NIST outcome.
+- id: map-nist-csf-2.0-002
+  source: GOV-02
+  target:
+    framework: nist-csf-2.0
+    control: GV.RM-02
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-003
+  source: IAM-01
+  target:
+    framework: nist-csf-2.0
+    control: PR.AA-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-004
+  source: IAM-02
+  target:
+    framework: nist-csf-2.0
+    control: PR.AA-03
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-005
+  source: IAM-03
+  target:
+    framework: nist-csf-2.0
+    control: PR.AA-05
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-006
+  source: NET-01
+  target:
+    framework: nist-csf-2.0
+    control: PR.IR-01
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-007
+  source: NET-02
+  target:
+    framework: nist-csf-2.0
+    control: PR.IR-01
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-008
+  source: LOG-01
+  target:
+    framework: nist-csf-2.0
+    control: DE.CM-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-009
+  source: VUL-01
+  target:
+    framework: nist-csf-2.0
+    control: ID.RA-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-010
+  source: VUL-02
+  target:
+    framework: nist-csf-2.0
+    control: ID.RA-01
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-011
+  source: SDLC-01
+  target:
+    framework: nist-csf-2.0
+    control: PR.PS-06
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-012
+  source: SDLC-02
+  target:
+    framework: nist-csf-2.0
+    control: PR.PS-01
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-013
+  source: BCP-01
+  target:
+    framework: nist-csf-2.0
+    control: RC.RP-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-014
+  source: DR-01
+  target:
+    framework: nist-csf-2.0
+    control: RC.RP-01
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-015
+  source: TPRM-01
+  target:
+    framework: nist-csf-2.0
+    control: GV.SC-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-016
+  source: IR-01
+  target:
+    framework: nist-csf-2.0
+    control: RS.MA-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-017
+  source: IR-02
+  target:
+    framework: nist-csf-2.0
+    control: RS.AN-03
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-018
+  source: DAT-01
+  target:
+    framework: nist-csf-2.0
+    control: PR.DS-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-019
+  source: DAT-02
+  target:
+    framework: nist-csf-2.0
+    control: ID.AM-05
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-020
+  source: DAT-03
+  target:
+    framework: nist-csf-2.0
+    control: PR.DS-01
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-021
+  source: HR-01
+  target:
+    framework: nist-csf-2.0
+    control: GV.RR-04
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-022
+  source: HR-02
+  target:
+    framework: nist-csf-2.0
+    control: PR.AT-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-023
+  source: CLD-01
+  target:
+    framework: nist-csf-2.0
+    control: GV.SC-07
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-024
+  source: CFG-01
+  target:
+    framework: nist-csf-2.0
+    control: PR.PS-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-025
+  source: MAL-01
+  target:
+    framework: nist-csf-2.0
+    control: DE.CM-09
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-026
+  source: AST-01
+  target:
+    framework: nist-csf-2.0
+    control: ID.AM-01
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-nist-csf-2.0-027
+  source: AUD-01
+  target:
+    framework: nist-csf-2.0
+    control: GV.OV-01
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'

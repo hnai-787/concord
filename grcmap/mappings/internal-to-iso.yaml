@@ -1,0 +1,355 @@
+mappings:
+- id: map-iso27001-2022-001
+  source: GOV-01
+  target:
+    framework: iso27001-2022
+    control: A.5.1
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-002
+  source: GOV-02
+  target:
+    framework: iso27001-2022
+    control: A.5.4
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Management responsibility overlaps but risk appetite setting is broader.
+- id: map-iso27001-2022-003
+  source: IAM-01
+  target:
+    framework: iso27001-2022
+    control: A.5.16
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Covers identity management plus full lifecycle automation.
+- id: map-iso27001-2022-004
+  source: IAM-01
+  target:
+    framework: iso27001-2022
+    control: A.5.18
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-005
+  source: IAM-02
+  target:
+    framework: iso27001-2022
+    control: A.8.5
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-006
+  source: IAM-03
+  target:
+    framework: iso27001-2022
+    control: A.8.2
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-007
+  source: NET-01
+  target:
+    framework: iso27001-2022
+    control: A.8.22
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-008
+  source: NET-02
+  target:
+    framework: iso27001-2022
+    control: A.8.20
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-009
+  source: LOG-01
+  target:
+    framework: iso27001-2022
+    control: A.8.15
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-010
+  source: LOG-01
+  target:
+    framework: iso27001-2022
+    control: A.8.16
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-011
+  source: LOG-02
+  target:
+    framework: iso27001-2022
+    control: A.8.17
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-012
+  source: VUL-01
+  target:
+    framework: iso27001-2022
+    control: A.8.8
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-013
+  source: VUL-02
+  target:
+    framework: iso27001-2022
+    control: A.8.8
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-014
+  source: SDLC-01
+  target:
+    framework: iso27001-2022
+    control: A.8.25
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-015
+  source: SDLC-01
+  target:
+    framework: iso27001-2022
+    control: A.8.28
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-016
+  source: SDLC-02
+  target:
+    framework: iso27001-2022
+    control: A.8.32
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-017
+  source: BCP-01
+  target:
+    framework: iso27001-2022
+    control: A.5.29
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-018
+  source: BCP-01
+  target:
+    framework: iso27001-2022
+    control: A.5.30
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-019
+  source: DR-01
+  target:
+    framework: iso27001-2022
+    control: A.5.30
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-020
+  source: TPRM-01
+  target:
+    framework: iso27001-2022
+    control: A.5.19
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-021
+  source: TPRM-01
+  target:
+    framework: iso27001-2022
+    control: A.5.20
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-022
+  source: IR-01
+  target:
+    framework: iso27001-2022
+    control: A.5.24
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-023
+  source: IR-01
+  target:
+    framework: iso27001-2022
+    control: A.5.26
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-024
+  source: IR-02
+  target:
+    framework: iso27001-2022
+    control: A.5.28
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-025
+  source: DAT-01
+  target:
+    framework: iso27001-2022
+    control: A.8.24
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-026
+  source: DAT-02
+  target:
+    framework: iso27001-2022
+    control: A.5.12
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-027
+  source: DAT-03
+  target:
+    framework: iso27001-2022
+    control: A.8.10
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-028
+  source: PHY-01
+  target:
+    framework: iso27001-2022
+    control: A.7.2
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-029
+  source: PHY-02
+  target:
+    framework: iso27001-2022
+    control: A.7.5
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-030
+  source: HR-01
+  target:
+    framework: iso27001-2022
+    control: A.6.1
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-031
+  source: HR-02
+  target:
+    framework: iso27001-2022
+    control: A.6.3
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-032
+  source: CLD-01
+  target:
+    framework: iso27001-2022
+    control: A.5.23
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-033
+  source: CFG-01
+  target:
+    framework: iso27001-2022
+    control: A.8.9
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-034
+  source: MAL-01
+  target:
+    framework: iso27001-2022
+    control: A.8.7
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-035
+  source: AST-01
+  target:
+    framework: iso27001-2022
+    control: A.5.9
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-036
+  source: AUD-01
+  target:
+    framework: iso27001-2022
+    control: A.5.35
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-037
+  source: PRIV-01
+  target:
+    framework: iso27001-2022
+    control: A.5.34
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-iso27001-2022-038
+  source: CRY-01
+  target:
+    framework: iso27001-2022
+    control: A.8.24
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Key management is part of, not all of, cryptography use -- see DAT-01.
+- id: map-iso27001-2022-039
+  source: WEB-01
+  target:
+    framework: iso27001-2022
+    control: A.8.23
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'

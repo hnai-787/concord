@@ -1,0 +1,148 @@
+implementations:
+- control: GOV-01
+  state: implemented
+  evidence:
+  - policy/ISMS-Charter
+  - policy/InfoSec-Policy-v3
+- control: GOV-02
+  state: partial
+  evidence:
+  - register/enterprise-risk-register
+  notes: Risk appetite statement approved; quantitative risk scoring model still in pilot.
+- control: IAM-01
+  state: partial
+  evidence:
+  - procedure/joiner-mover-leaver
+  - system/identity-governance-tool
+  notes: Joiner/leaver automation complete; contractor offboarding process still manual.
+- control: IAM-02
+  state: implemented
+  evidence:
+  - config/mfa-enforcement-policy
+- control: IAM-03
+  state: planned
+  evidence:
+  - project/pam-rollout-2027
+  notes: Privileged access management tool selected; deployment scheduled for next fiscal year.
+- control: NET-01
+  state: implemented
+  evidence:
+  - diagram/network-segmentation-2026
+- control: NET-02
+  state: implemented
+  evidence:
+  - config/firewall-ruleset
+  - config/ids-deployment
+- control: LOG-01
+  state: partial
+  evidence:
+  - system/siem-deployment
+  notes: Core banking and network devices centrally logged; some legacy branch systems not yet integrated.
+- control: LOG-02
+  state: implemented
+  evidence:
+  - config/ntp-baseline
+- control: VUL-01
+  state: implemented
+  evidence:
+  - report/monthly-vuln-scan
+- control: VUL-02
+  state: planned
+  evidence:
+  - contract/pentest-vendor-2027
+  notes: Annual penetration test scoped; contract execution pending budget approval.
+- control: SDLC-01
+  state: partial
+  evidence:
+  - procedure/secure-sdlc
+  notes: Security requirements and code review mandatory for new projects; legacy applications not yet
+    retrofitted.
+- control: SDLC-02
+  state: implemented
+  evidence:
+  - procedure/change-advisory-board
+- control: BCP-01
+  state: implemented
+  evidence:
+  - plan/business-continuity-plan-2026
+- control: DR-01
+  state: partial
+  evidence:
+  - plan/dr-runbook
+  - report/dr-test-2025
+  notes: DR site operational for core banking; last full failover test predates online banking platform
+    migration.
+- control: TPRM-01
+  state: not_implemented
+  evidence: []
+- control: IR-01
+  state: implemented
+  evidence:
+  - plan/incident-response-plan
+- control: IR-02
+  state: alternative
+  evidence:
+  - procedure/manual-evidence-handling
+  notes: No dedicated forensics tooling; evidence collection follows a documented manual chain-of-custody
+    procedure instead.
+- control: DAT-01
+  state: implemented
+  evidence:
+  - config/encryption-standards
+- control: DAT-02
+  state: partial
+  evidence:
+  - policy/data-classification
+  notes: Classification scheme defined and applied to new data stores; historical data inventory tagging
+    in progress.
+- control: DAT-03
+  state: not_implemented
+  evidence: []
+- control: PHY-01
+  state: implemented
+  evidence:
+  - procedure/badge-access-control
+- control: PHY-02
+  state: implemented
+  evidence:
+  - report/datacenter-environmental-controls
+- control: HR-01
+  state: implemented
+  evidence:
+  - procedure/pre-employment-screening
+- control: HR-02
+  state: partial
+  evidence:
+  - report/awareness-training-completion-2026
+  notes: Mandatory annual training deployed; completion rate 78% as of last reporting cycle.
+- control: CLD-01
+  state: partial
+  evidence:
+  - policy/cloud-security-baseline
+  notes: Baseline security configuration enforced for new cloud workloads; legacy workloads migrated pre-policy
+    not yet reassessed.
+- control: CFG-01
+  state: implemented
+  evidence:
+  - config/hardening-baseline
+- control: MAL-01
+  state: implemented
+  evidence:
+  - config/endpoint-protection-deployment
+- control: AST-01
+  state: partial
+  evidence:
+  - system/cmdb
+  notes: Server and network asset inventory automated; end-user device inventory partially manual.
+- control: AUD-01
+  state: implemented
+  evidence:
+  - report/internal-audit-plan-2026
+- control: PRIV-01
+  state: implemented
+  evidence:
+  - policy/data-privacy-policy
+- control: CRY-01
+  state: implemented
+  evidence:
+  - procedure/key-management-standard

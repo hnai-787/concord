@@ -1,0 +1,1945 @@
+{
+  "framework": "iso27001-2022",
+  "disclaimer": "Coverage findings are readiness indicators computed from a self-declared control inventory and reviewer-asserted mappings -- they are NOT a certification, audit opinion, or ISO/PCI/SBP compliance determination.",
+  "summary": {
+    "COVERED": 17,
+    "PARTIAL": 14,
+    "PLANNED": 1,
+    "GAP": 61,
+    "NOT_APPLICABLE": 0
+  },
+  "requirements": [
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.1",
+      "requirement_title": "Policies for information security",
+      "status": "COVERED",
+      "contributing_controls": [
+        "GOV-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.2",
+      "requirement_title": "Information security roles and responsibilities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.3",
+      "requirement_title": "Segregation of duties",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.4",
+      "requirement_title": "Management responsibilities",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "GOV-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.5",
+      "requirement_title": "Contact with authorities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.6",
+      "requirement_title": "Contact with special interest groups",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.7",
+      "requirement_title": "Threat intelligence",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.8",
+      "requirement_title": "Information security in project management",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.9",
+      "requirement_title": "Inventory of information and other associated assets",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "AST-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.10",
+      "requirement_title": "Acceptable use of information and other associated assets",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.11",
+      "requirement_title": "Return of assets",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.12",
+      "requirement_title": "Classification of information",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "DAT-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.13",
+      "requirement_title": "Labelling of information",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.14",
+      "requirement_title": "Information transfer",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.15",
+      "requirement_title": "Access control",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.16",
+      "requirement_title": "Identity management",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IAM-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.17",
+      "requirement_title": "Authentication information",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.18",
+      "requirement_title": "Access rights",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IAM-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.19",
+      "requirement_title": "Information security in supplier relationships",
+      "status": "GAP",
+      "contributing_controls": [
+        "TPRM-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.20",
+      "requirement_title": "Addressing information security within supplier agreements",
+      "status": "GAP",
+      "contributing_controls": [
+        "TPRM-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.21",
+      "requirement_title": "Managing information security in the ICT supply chain",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.22",
+      "requirement_title": "Monitoring, review and change management of supplier services",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.23",
+      "requirement_title": "Information security for use of cloud services",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "CLD-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.24",
+      "requirement_title": "Information security incident management planning and preparation",
+      "status": "COVERED",
+      "contributing_controls": [
+        "IR-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.25",
+      "requirement_title": "Assessment and decision on information security events",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.26",
+      "requirement_title": "Response to information security incidents",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IR-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.27",
+      "requirement_title": "Learning from information security incidents",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.28",
+      "requirement_title": "Collection of evidence",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IR-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.29",
+      "requirement_title": "Information security during disruption",
+      "status": "COVERED",
+      "contributing_controls": [
+        "BCP-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.30",
+      "requirement_title": "ICT readiness for business continuity",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "DR-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.31",
+      "requirement_title": "Legal, statutory, regulatory and contractual requirements",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.32",
+      "requirement_title": "Intellectual property rights",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.33",
+      "requirement_title": "Protection of records",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.34",
+      "requirement_title": "Privacy and protection of PII",
+      "status": "COVERED",
+      "contributing_controls": [
+        "PRIV-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.35",
+      "requirement_title": "Independent review of information security",
+      "status": "COVERED",
+      "contributing_controls": [
+        "AUD-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.36",
+      "requirement_title": "Compliance with policies and standards for information security",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.5.37",
+      "requirement_title": "Documented operating procedures",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.1",
+      "requirement_title": "Screening",
+      "status": "COVERED",
+      "contributing_controls": [
+        "HR-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.2",
+      "requirement_title": "Terms and conditions of employment",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.3",
+      "requirement_title": "Information security awareness, education and training",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "HR-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.4",
+      "requirement_title": "Disciplinary process",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.5",
+      "requirement_title": "Responsibilities after termination or change of employment",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.6",
+      "requirement_title": "Confidentiality or non-disclosure agreements",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.7",
+      "requirement_title": "Remote working",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.6.8",
+      "requirement_title": "Information security event reporting",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.1",
+      "requirement_title": "Physical security perimeter",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.2",
+      "requirement_title": "Physical entry controls",
+      "status": "COVERED",
+      "contributing_controls": [
+        "PHY-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.3",
+      "requirement_title": "Securing offices, rooms and facilities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.4",
+      "requirement_title": "Physical security monitoring",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.5",
+      "requirement_title": "Protecting against physical and environmental threats",
+      "status": "COVERED",
+      "contributing_controls": [
+        "PHY-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.6",
+      "requirement_title": "Working in secure areas",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.7",
+      "requirement_title": "Clear desk and clear screen",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.8",
+      "requirement_title": "Equipment siting and protection",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.9",
+      "requirement_title": "Security of assets off-premises",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.10",
+      "requirement_title": "Storage media",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.11",
+      "requirement_title": "Supporting utilities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.12",
+      "requirement_title": "Cabling security",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.13",
+      "requirement_title": "Equipment maintenance",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.7.14",
+      "requirement_title": "Secure disposal or re-use of equipment",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.1",
+      "requirement_title": "User endpoint devices",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.2",
+      "requirement_title": "Privileged access rights",
+      "status": "PLANNED",
+      "contributing_controls": [
+        "IAM-03"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.3",
+      "requirement_title": "Information access restriction",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.4",
+      "requirement_title": "Access to source code",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.5",
+      "requirement_title": "Secure authentication",
+      "status": "COVERED",
+      "contributing_controls": [
+        "IAM-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.6",
+      "requirement_title": "Capacity management",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.7",
+      "requirement_title": "Protection against malware",
+      "status": "COVERED",
+      "contributing_controls": [
+        "MAL-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.8",
+      "requirement_title": "Management of technical vulnerabilities",
+      "status": "COVERED",
+      "contributing_controls": [
+        "VUL-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.9",
+      "requirement_title": "Configuration management",
+      "status": "COVERED",
+      "contributing_controls": [
+        "CFG-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.10",
+      "requirement_title": "Information deletion",
+      "status": "GAP",
+      "contributing_controls": [
+        "DAT-03"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.11",
+      "requirement_title": "Data masking",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.12",
+      "requirement_title": "Data leakage prevention",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.13",
+      "requirement_title": "Information backup",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.14",
+      "requirement_title": "Redundancy of information processing facilities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.15",
+      "requirement_title": "Logging",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "LOG-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.16",
+      "requirement_title": "Monitoring activities",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "LOG-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.17",
+      "requirement_title": "Clock synchronization",
+      "status": "COVERED",
+      "contributing_controls": [
+        "LOG-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.18",
+      "requirement_title": "Use of privileged utility programs",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.19",
+      "requirement_title": "Installation of software on operational systems",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.20",
+      "requirement_title": "Networks security",
+      "status": "COVERED",
+      "contributing_controls": [
+        "NET-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.21",
+      "requirement_title": "Security of network services",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.22",
+      "requirement_title": "Segregation of networks",
+      "status": "COVERED",
+      "contributing_controls": [
+        "NET-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.23",
+      "requirement_title": "Web filtering",
+      "status": "GAP",
+      "contributing_controls": [
+        "WEB-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.24",
+      "requirement_title": "Use of cryptography",
+      "status": "COVERED",
+      "contributing_controls": [
+        "DAT-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.25",
+      "requirement_title": "Secure development life cycle",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "SDLC-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.26",
+      "requirement_title": "Application security requirements",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.27",
+      "requirement_title": "Secure system architecture and engineering principles",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.28",
+      "requirement_title": "Secure coding",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "SDLC-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.29",
+      "requirement_title": "Security testing in development and acceptance",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.30",
+      "requirement_title": "Outsourced development",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.31",
+      "requirement_title": "Separation of development, test and production environments",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.32",
+      "requirement_title": "Change management",
+      "status": "COVERED",
+      "contributing_controls": [
+        "SDLC-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.33",
+      "requirement_title": "Test information",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "iso27001-2022",
+      "requirement_id": "A.8.34",
+      "requirement_title": "Protection of information systems during audit testing",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    }
+  ]
+}
+{
+  "framework": "nist-csf-2.0",
+  "disclaimer": "Coverage findings are readiness indicators computed from a self-declared control inventory and reviewer-asserted mappings -- they are NOT a certification, audit opinion, or ISO/PCI/SBP compliance determination.",
+  "summary": {
+    "COVERED": 7,
+    "PARTIAL": 13,
+    "PLANNED": 1,
+    "GAP": 85,
+    "NOT_APPLICABLE": 0
+  },
+  "requirements": [
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OC-01",
+      "requirement_title": "The organizational mission is understood and informs cybersecurity risk management",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OC-02",
+      "requirement_title": "Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OC-03",
+      "requirement_title": "Legal, regulatory, and contractual requirements regarding cybersecurity - including privacy and civil liberties obligations - are understood and managed",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OC-04",
+      "requirement_title": "Critical objectives, capabilities, and services that external stakeholders depend on or expect from the organization are understood and communicated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OC-05",
+      "requirement_title": "Outcomes, capabilities, and services that the organization depends on are understood and communicated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RM-01",
+      "requirement_title": "Risk management objectives are established and agreed to by organizational stakeholders",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RM-02",
+      "requirement_title": "Risk appetite and risk tolerance statements are established, communicated, and maintained",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "GOV-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RM-03",
+      "requirement_title": "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RM-04",
+      "requirement_title": "Strategic direction that describes appropriate risk response options is established and communicated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RM-05",
+      "requirement_title": "Lines of communication across the organization are established for cybersecurity risks, including risks from suppliers and other third parties",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RM-06",
+      "requirement_title": "A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RM-07",
+      "requirement_title": "Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RR-01",
+      "requirement_title": "Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RR-02",
+      "requirement_title": "Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RR-03",
+      "requirement_title": "Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.RR-04",
+      "requirement_title": "Cybersecurity is included in human resources practices",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "HR-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.PO-01",
+      "requirement_title": "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced",
+      "status": "COVERED",
+      "contributing_controls": [
+        "GOV-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.PO-02",
+      "requirement_title": "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OV-01",
+      "requirement_title": "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "AUD-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OV-02",
+      "requirement_title": "The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.OV-03",
+      "requirement_title": "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-01",
+      "requirement_title": "A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders",
+      "status": "GAP",
+      "contributing_controls": [
+        "TPRM-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-02",
+      "requirement_title": "Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-03",
+      "requirement_title": "Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-04",
+      "requirement_title": "Suppliers are known and prioritized by criticality",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-05",
+      "requirement_title": "Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-06",
+      "requirement_title": "Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-07",
+      "requirement_title": "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "CLD-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-08",
+      "requirement_title": "Relevant suppliers and other third parties are included in incident planning, response, and recovery activities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-09",
+      "requirement_title": "Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "GV.SC-10",
+      "requirement_title": "Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.AM-01",
+      "requirement_title": "Inventories of hardware managed by the organization are maintained",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "AST-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.AM-02",
+      "requirement_title": "Inventories of software, services, and systems managed by the organization are maintained",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.AM-03",
+      "requirement_title": "Representations of the organization's authorized network communication and internal and external network data flows are maintained",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.AM-04",
+      "requirement_title": "Inventories of services provided by suppliers are maintained",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.AM-05",
+      "requirement_title": "Assets are prioritized based on classification, criticality, resources, and impact on the mission",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "DAT-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.AM-07",
+      "requirement_title": "Inventories of data and corresponding metadata for designated data types are maintained",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.AM-08",
+      "requirement_title": "Systems, hardware, software, services, and data are managed throughout their life cycles",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-01",
+      "requirement_title": "Vulnerabilities in assets are identified, validated, and recorded",
+      "status": "COVERED",
+      "contributing_controls": [
+        "VUL-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-02",
+      "requirement_title": "Cyber threat intelligence is received from information sharing forums and sources",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-03",
+      "requirement_title": "Internal and external threats to the organization are identified and recorded",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-04",
+      "requirement_title": "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-05",
+      "requirement_title": "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-06",
+      "requirement_title": "Risk responses are chosen, prioritized, planned, tracked, and communicated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-07",
+      "requirement_title": "Changes and exceptions are managed, assessed for risk impact, recorded, and tracked",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-08",
+      "requirement_title": "Processes for receiving, analyzing, and responding to vulnerability disclosures are established",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-09",
+      "requirement_title": "The authenticity and integrity of hardware and software are assessed prior to acquisition and use",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.RA-10",
+      "requirement_title": "Critical suppliers are assessed prior to acquisition",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.IM-01",
+      "requirement_title": "Improvements are identified from evaluations",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.IM-02",
+      "requirement_title": "Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.IM-03",
+      "requirement_title": "Improvements are identified from execution of operational processes, procedures, and activities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "ID.IM-04",
+      "requirement_title": "Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AA-01",
+      "requirement_title": "Identities and credentials for authorized users, services, and hardware are managed by the organization",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IAM-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AA-02",
+      "requirement_title": "Identities are proofed and bound to credentials based on the context of interactions",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AA-03",
+      "requirement_title": "Users, services, and hardware are authenticated",
+      "status": "COVERED",
+      "contributing_controls": [
+        "IAM-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AA-04",
+      "requirement_title": "Identity assertions are protected, conveyed, and verified",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AA-05",
+      "requirement_title": "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties",
+      "status": "PLANNED",
+      "contributing_controls": [
+        "IAM-03"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AA-06",
+      "requirement_title": "Physical access to assets is managed, monitored, and enforced commensurate with risk",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AT-01",
+      "requirement_title": "Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "HR-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.AT-02",
+      "requirement_title": "Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.DS-01",
+      "requirement_title": "The confidentiality, integrity, and availability of data-at-rest are protected",
+      "status": "COVERED",
+      "contributing_controls": [
+        "DAT-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.DS-02",
+      "requirement_title": "The confidentiality, integrity, and availability of data-in-transit are protected",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.DS-10",
+      "requirement_title": "The confidentiality, integrity, and availability of data-in-use are protected",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.DS-11",
+      "requirement_title": "Backups of data are created, protected, maintained, and tested",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.PS-01",
+      "requirement_title": "Configuration management practices are established and applied",
+      "status": "COVERED",
+      "contributing_controls": [
+        "CFG-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.PS-02",
+      "requirement_title": "Software is maintained, replaced, and removed commensurate with risk",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.PS-03",
+      "requirement_title": "Hardware is maintained, replaced, and removed commensurate with risk",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.PS-04",
+      "requirement_title": "Log records are generated and made available for continuous monitoring",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.PS-05",
+      "requirement_title": "Installation and execution of unauthorized software are prevented",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.PS-06",
+      "requirement_title": "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "SDLC-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.IR-01",
+      "requirement_title": "Networks and environments are protected from unauthorized logical access and usage",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "NET-01",
+        "NET-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.IR-02",
+      "requirement_title": "The organization's technology assets are protected from environmental threats",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.IR-03",
+      "requirement_title": "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "PR.IR-04",
+      "requirement_title": "Adequate resource capacity to ensure availability is maintained",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.CM-01",
+      "requirement_title": "Networks and network services are monitored to find potentially adverse events",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "LOG-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.CM-02",
+      "requirement_title": "The physical environment is monitored to find potentially adverse events",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.CM-03",
+      "requirement_title": "Personnel activity and technology usage are monitored to find potentially adverse events",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.CM-06",
+      "requirement_title": "External service provider activities and services are monitored to find potentially adverse events",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.CM-09",
+      "requirement_title": "Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "MAL-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.AE-02",
+      "requirement_title": "Potentially adverse events are analyzed to better understand associated activities",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.AE-03",
+      "requirement_title": "Information is correlated from multiple sources",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.AE-04",
+      "requirement_title": "The estimated impact and scope of adverse events are understood",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.AE-06",
+      "requirement_title": "Information on adverse events is provided to authorized staff and tools",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.AE-07",
+      "requirement_title": "Cyber threat intelligence and other contextual information are integrated into the analysis",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "DE.AE-08",
+      "requirement_title": "Incidents are declared when adverse events meet the defined incident criteria",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.MA-01",
+      "requirement_title": "The incident response plan is executed in coordination with relevant third parties once an incident is declared",
+      "status": "COVERED",
+      "contributing_controls": [
+        "IR-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.MA-02",
+      "requirement_title": "Incident reports are triaged and validated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.MA-03",
+      "requirement_title": "Incidents are categorized and prioritized",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.MA-04",
+      "requirement_title": "Incidents are escalated or elevated as needed",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.MA-05",
+      "requirement_title": "The criteria for initiating incident recovery are applied",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.AN-03",
+      "requirement_title": "Analysis is performed to establish what has taken place during an incident and the root cause of the incident",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IR-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.AN-06",
+      "requirement_title": "Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.AN-07",
+      "requirement_title": "Incident data and metadata are collected, and their integrity and provenance are preserved",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.AN-08",
+      "requirement_title": "An incident's magnitude is estimated and validated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.CO-02",
+      "requirement_title": "Internal and external stakeholders are notified of incidents",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.CO-03",
+      "requirement_title": "Information is shared with designated internal and external stakeholders",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.MI-01",
+      "requirement_title": "Incidents are contained",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RS.MI-02",
+      "requirement_title": "Incidents are eradicated",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.RP-01",
+      "requirement_title": "The recovery portion of the incident response plan is executed once initiated from the incident response process",
+      "status": "COVERED",
+      "contributing_controls": [
+        "BCP-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.RP-02",
+      "requirement_title": "Recovery actions are selected, scoped, prioritized, and performed",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.RP-03",
+      "requirement_title": "The integrity of backups and other restoration assets is verified before using them for restoration",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.RP-04",
+      "requirement_title": "Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.RP-05",
+      "requirement_title": "The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.RP-06",
+      "requirement_title": "The end of incident recovery is declared based on criteria, and incident-related documentation is completed",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.CO-03",
+      "requirement_title": "Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "nist-csf-2.0",
+      "requirement_id": "RC.CO-04",
+      "requirement_title": "Public updates on incident recovery are shared using approved methods and messaging",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    }
+  ]
+}
+{
+  "framework": "pci-dss-4.0.1",
+  "disclaimer": "Coverage findings are readiness indicators computed from a self-declared control inventory and reviewer-asserted mappings -- they are NOT a certification, audit opinion, or ISO/PCI/SBP compliance determination.",
+  "summary": {
+    "COVERED": 5,
+    "PARTIAL": 6,
+    "PLANNED": 0,
+    "GAP": 0,
+    "NOT_APPLICABLE": 1
+  },
+  "requirements": [
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "1",
+      "requirement_title": "Install and Maintain Network Security Controls",
+      "status": "COVERED",
+      "contributing_controls": [
+        "NET-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "2",
+      "requirement_title": "Apply Secure Configurations to All System Components",
+      "status": "COVERED",
+      "contributing_controls": [
+        "CFG-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "3",
+      "requirement_title": "Protect Stored Account Data",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "DAT-01",
+        "DAT-03",
+        "CRY-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "4",
+      "requirement_title": "Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks",
+      "status": "COVERED",
+      "contributing_controls": [
+        "DAT-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "5",
+      "requirement_title": "Protect All Systems and Networks from Malicious Software",
+      "status": "COVERED",
+      "contributing_controls": [
+        "MAL-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "6",
+      "requirement_title": "Develop and Maintain Secure Systems and Software",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "SDLC-01",
+        "SDLC-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "7",
+      "requirement_title": "Restrict Access to System Components and Cardholder Data by Business Need to Know",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IAM-01",
+        "IAM-03"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "8",
+      "requirement_title": "Identify Users and Authenticate Access to System Components",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IAM-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "9",
+      "requirement_title": "Restrict Physical Access to Cardholder Data",
+      "status": "NOT_APPLICABLE",
+      "contributing_controls": [],
+      "justification": "Meridian Bank's cardholder data environment is fully outsourced to a PCI-validated third-party payment processor; no on-premises storage, processing, or transmission of cardholder data occurs at any Meridian Bank facility, so Requirement 9 (Restrict Physical Access to Cardholder Data) does not apply to Meridian Bank's own premises. Physical security of the processor's facilities is covered under the processor's own PCI DSS attestation, tracked via TPRM-01.\n"
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "10",
+      "requirement_title": "Log and Monitor All Access to System Components and Cardholder Data",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "LOG-01",
+        "LOG-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "11",
+      "requirement_title": "Test Security of Systems and Networks Regularly",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "VUL-01",
+        "VUL-02"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "pci-dss-4.0.1",
+      "requirement_id": "12",
+      "requirement_title": "Support Information Security with Organizational Policies and Programs",
+      "status": "COVERED",
+      "contributing_controls": [
+        "GOV-01"
+      ],
+      "justification": null
+    }
+  ]
+}
+{
+  "framework": "sbp-etgrm-2017",
+  "disclaimer": "Coverage findings are readiness indicators computed from a self-declared control inventory and reviewer-asserted mappings -- they are NOT a certification, audit opinion, or ISO/PCI/SBP compliance determination.",
+  "summary": {
+    "COVERED": 2,
+    "PARTIAL": 2,
+    "PLANNED": 0,
+    "GAP": 2,
+    "NOT_APPLICABLE": 0
+  },
+  "requirements": [
+    {
+      "framework_id": "sbp-etgrm-2017",
+      "requirement_id": "1",
+      "requirement_title": "Information Technology Governance in Financial Institutions",
+      "status": "COVERED",
+      "contributing_controls": [
+        "GOV-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "sbp-etgrm-2017",
+      "requirement_id": "2",
+      "requirement_title": "Information Security",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "IAM-01",
+        "NET-02",
+        "IR-01",
+        "PHY-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "sbp-etgrm-2017",
+      "requirement_id": "3",
+      "requirement_title": "IT Services Delivery & Operations Management",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "sbp-etgrm-2017",
+      "requirement_id": "4",
+      "requirement_title": "Acquisition & Implementation of IT Systems",
+      "status": "GAP",
+      "contributing_controls": [],
+      "justification": null
+    },
+    {
+      "framework_id": "sbp-etgrm-2017",
+      "requirement_id": "5",
+      "requirement_title": "Business Continuity and Disaster Recovery",
+      "status": "PARTIAL",
+      "contributing_controls": [
+        "BCP-01",
+        "DR-01"
+      ],
+      "justification": null
+    },
+    {
+      "framework_id": "sbp-etgrm-2017",
+      "requirement_id": "6",
+      "requirement_title": "IT Audit",
+      "status": "COVERED",
+      "contributing_controls": [
+        "AUD-01"
+      ],
+      "justification": null
+    }
+  ]
+}

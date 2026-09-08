@@ -1,0 +1,61 @@
+id: sbp-etgrm-2017
+title: Enterprise Technology Governance & Risk Management Framework for Financial Institutions
+issuer: State Bank of Pakistan (SBP)
+version: '2017'
+issued: '2017-05-30'
+instrument: BPRD Circular No. 05 of 2017
+jurisdiction: PK
+applicability:
+  - commercial-bank
+  - islamic-bank
+  - dfi
+  - microfinance-bank
+source:
+  publisher: State Bank of Pakistan
+  note: The six major domains below are SBP's own published framework structure
+    (also reproduced by SBP itself in its Financial Stability Review). Only the
+    top-level domain structure is modeled in this v1 catalog -- SBP's full
+    framework document defines detailed sub-requirements per domain that are
+    NOT enumerated here (a deliberate, disclosed scope decision, matching the
+    PCI DSS catalog's same choice). Related/amending circulars (e.g. BPRD
+    07/2016 on cyber-attack prevention, BPRD 06/2019 on outsourcing risk, BPRD
+    04/2020 on cloud outsourcing, BPRD 04/2023 on digital banking security) are
+    part of the real applicable regulatory catalog but are recorded only as
+    `related_instruments` metadata here, not modeled as separate requirement sets.
+related_instruments:
+  - 'BPRD Circular No. 07 of 2016 -- Prevention against Cyber Attacks'
+  - 'BPRD Circular No. 06 of 2019 -- Outsourcing risk framework (revised)'
+  - 'BPRD Circular No. 04 of 2020 -- ETGRM S4.4.2 amendment (cloud outsourcing)'
+  - 'BPRD Circular No. 04 of 2023 -- Security measures for digital banking products/services'
+status: active-with-amendments
+requirements:
+  - id: '1'
+    level: domain
+    parent: null
+    title: Information Technology Governance in Financial Institutions
+    description: null
+  - id: '2'
+    level: domain
+    parent: null
+    title: Information Security
+    description: null
+  - id: '3'
+    level: domain
+    parent: null
+    title: IT Services Delivery & Operations Management
+    description: null
+  - id: '4'
+    level: domain
+    parent: null
+    title: Acquisition & Implementation of IT Systems
+    description: null
+  - id: '5'
+    level: domain
+    parent: null
+    title: Business Continuity and Disaster Recovery
+    description: null
+  - id: '6'
+    level: domain
+    parent: null
+    title: IT Audit
+    description: null

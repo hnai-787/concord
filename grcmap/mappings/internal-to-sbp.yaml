@@ -1,0 +1,93 @@
+mappings:
+- id: map-sbp-etgrm-2017-001
+  source: GOV-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '1'
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-sbp-etgrm-2017-002
+  source: GOV-02
+  target:
+    framework: sbp-etgrm-2017
+    control: '1'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-sbp-etgrm-2017-003
+  source: IAM-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '2'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-sbp-etgrm-2017-004
+  source: NET-02
+  target:
+    framework: sbp-etgrm-2017
+    control: '2'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-sbp-etgrm-2017-005
+  source: BCP-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '5'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Contributes to, but does not alone satisfy, the full BCP/DR domain -- see DR-01 and coverage-assertions.yaml.
+- id: map-sbp-etgrm-2017-006
+  source: DR-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '5'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Contributes to, but does not alone satisfy, the full BCP/DR domain -- see BCP-01 and coverage-assertions.yaml.
+- id: map-sbp-etgrm-2017-007
+  source: TPRM-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '1'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-sbp-etgrm-2017-008
+  source: IR-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '2'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-sbp-etgrm-2017-009
+  source: PHY-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '2'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-sbp-etgrm-2017-010
+  source: AUD-01
+  target:
+    framework: sbp-etgrm-2017
+    control: '6'
+  relationship: equal
+  rationale: semantic
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'

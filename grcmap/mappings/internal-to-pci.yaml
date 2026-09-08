@@ -1,0 +1,231 @@
+mappings:
+- id: map-pci-dss-4.0.1-001
+  source: GOV-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '12'
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-002
+  source: IAM-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '7'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Contributes to need-to-know access restriction, alongside privileged access management.
+- id: map-pci-dss-4.0.1-003
+  source: IAM-02
+  target:
+    framework: pci-dss-4.0.1
+    control: '8'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: MFA satisfies part of Requirement 8's authentication controls.
+- id: map-pci-dss-4.0.1-004
+  source: IAM-03
+  target:
+    framework: pci-dss-4.0.1
+    control: '7'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Contributes to need-to-know access restriction, alongside identity lifecycle management.
+- id: map-pci-dss-4.0.1-005
+  source: NET-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '1'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Segmentation reduces cardholder data environment scope; does not alone satisfy all of Requirement
+    1.
+- id: map-pci-dss-4.0.1-006
+  source: NET-02
+  target:
+    framework: pci-dss-4.0.1
+    control: '1'
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Firewall/IDS deployment covers the core network security control requirement.
+- id: map-pci-dss-4.0.1-007
+  source: LOG-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '10'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Centralized logging covers most, but not all, of Requirement 10 without clock sync (see LOG-02)
+    and coverage-assertions.yaml.
+- id: map-pci-dss-4.0.1-008
+  source: LOG-02
+  target:
+    framework: pci-dss-4.0.1
+    control: '10'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Clock synchronization is a distinct sub-element of Requirement 10's log integrity requirements.
+- id: map-pci-dss-4.0.1-009
+  source: VUL-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '11'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Vulnerability scanning is part of, not all of, Requirement 11's testing scope.
+- id: map-pci-dss-4.0.1-010
+  source: VUL-02
+  target:
+    framework: pci-dss-4.0.1
+    control: '11'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Penetration testing is part of, not all of, Requirement 11's testing scope.
+- id: map-pci-dss-4.0.1-011
+  source: SDLC-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '6'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-012
+  source: SDLC-02
+  target:
+    framework: pci-dss-4.0.1
+    control: '6'
+  relationship: subset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-013
+  source: IR-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '12'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-014
+  source: DAT-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '3'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Encryption at rest addresses part of Requirement 3's stored-account-data protections.
+- id: map-pci-dss-4.0.1-015
+  source: DAT-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '4'
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Encryption in transit fully covers Requirement 4's transmission-protection scope.
+- id: map-pci-dss-4.0.1-016
+  source: DAT-03
+  target:
+    framework: pci-dss-4.0.1
+    control: '3'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+  notes: Secure disposal addresses part of Requirement 3's stored-account-data protections.
+- id: map-pci-dss-4.0.1-017
+  source: PHY-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '9'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-018
+  source: PHY-02
+  target:
+    framework: pci-dss-4.0.1
+    control: '9'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-019
+  source: HR-02
+  target:
+    framework: pci-dss-4.0.1
+    control: '12'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-020
+  source: CFG-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '2'
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-021
+  source: MAL-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '5'
+  relationship: superset
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-022
+  source: AST-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '2'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-023
+  source: CRY-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '3'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'
+- id: map-pci-dss-4.0.1-024
+  source: WEB-01
+  target:
+    framework: pci-dss-4.0.1
+    control: '1'
+  relationship: intersects
+  rationale: functional
+  reviewed_by: compliance-analyst
+  reviewed_at: '2026-09-08'

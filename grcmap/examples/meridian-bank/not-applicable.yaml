@@ -1,0 +1,17 @@
+# Applicability is the EXTERNAL framework's own rule, not the
+# organization's convenience -- every entry requires a real, checkable
+# justification (validator.py rejects a not_applicable state with no
+# justification; the same discipline applies here at the requirement
+# level).
+not_applicable:
+  - framework: pci-dss-4.0.1
+    control: '9'
+    justification: >
+      Meridian Bank's cardholder data environment is fully outsourced to
+      a PCI-validated third-party payment processor; no on-premises
+      storage, processing, or transmission of cardholder data occurs at
+      any Meridian Bank facility, so Requirement 9 (Restrict Physical
+      Access to Cardholder Data) does not apply to Meridian Bank's own
+      premises. Physical security of the processor's facilities is
+      covered under the processor's own PCI DSS attestation, tracked via
+      TPRM-01.

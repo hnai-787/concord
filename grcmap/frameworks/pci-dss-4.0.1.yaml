@@ -1,0 +1,79 @@
+id: pci-dss-4.0.1
+title: Payment Card Industry Data Security Standard v4.0.1
+issuer: PCI Security Standards Council (PCI SSC)
+version: 4.0.1
+issued: '2024-06-01'
+instrument: PCI DSS v4.0.1 (a limited revision of v4.0 -- PCI SSC states it added
+  no new requirements and deleted none, only corrected errors and clarified
+  requirements/guidance, including points in Requirements 3, 6, 8, and 12; v4.0
+  was retired 2024-12-31). Requirements that were future-dated to 2025-03-31 in
+  v4.0/v4.0.1 are now in effect.
+source:
+  publisher: PCI SSC
+  note: Only the 12 top-level requirement titles are recorded here (PCI SSC's own
+    published requirement names). The hierarchical numbered sub-requirements
+    (e.g. 8.1, 8.2.x) are real parts of the standard but are NOT enumerated in
+    this v1 catalog -- a deliberate, disclosed scope decision (see README.md
+    Limitations); the schema (level/parent) already supports adding them.
+status: active
+requirements:
+  - id: '1'
+    level: requirement
+    parent: null
+    title: Install and Maintain Network Security Controls
+    description: null
+  - id: '2'
+    level: requirement
+    parent: null
+    title: Apply Secure Configurations to All System Components
+    description: null
+  - id: '3'
+    level: requirement
+    parent: null
+    title: Protect Stored Account Data
+    description: null
+  - id: '4'
+    level: requirement
+    parent: null
+    title: Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks
+    description: null
+  - id: '5'
+    level: requirement
+    parent: null
+    title: Protect All Systems and Networks from Malicious Software
+    description: null
+  - id: '6'
+    level: requirement
+    parent: null
+    title: Develop and Maintain Secure Systems and Software
+    description: null
+  - id: '7'
+    level: requirement
+    parent: null
+    title: Restrict Access to System Components and Cardholder Data by Business Need to Know
+    description: null
+  - id: '8'
+    level: requirement
+    parent: null
+    title: Identify Users and Authenticate Access to System Components
+    description: null
+  - id: '9'
+    level: requirement
+    parent: null
+    title: Restrict Physical Access to Cardholder Data
+    description: null
+  - id: '10'
+    level: requirement
+    parent: null
+    title: Log and Monitor All Access to System Components and Cardholder Data
+    description: null
+  - id: '11'
+    level: requirement
+    parent: null
+    title: Test Security of Systems and Networks Regularly
+    description: null
+  - id: '12'
+    level: requirement
+    parent: null
+    title: Support Information Security with Organizational Policies and Programs
+    description: null

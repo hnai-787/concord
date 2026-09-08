@@ -1,0 +1,480 @@
+id: iso27001-2022
+title: ISO/IEC 27001:2022 Annex A
+issuer: International Organization for Standardization (ISO) / IEC
+version: '2022'
+issued: '2022-10-25'
+instrument: ISO/IEC 27001:2022 Annex A (amended by ISO/IEC 27001:2022/Amd 1:2024 -- climate action changes,
+  management-system level, does not alter the Annex A control set)
+source:
+  publisher: ISO/IEC
+  note: ISO/IEC 27001 is a copyrighted standard. Only control IDs, themes, and short (2-6 word) topic
+    titles are recorded here -- the same short-title nomenclature independently and consistently published
+    across public ISO 27001 reference material -- never the standard's copyrighted normative control text
+    or implementation guidance.
+status: active-with-amendments
+requirements:
+- id: A.5.1
+  level: control
+  parent: organizational
+  title: Policies for information security
+  description: null
+- id: A.5.2
+  level: control
+  parent: organizational
+  title: Information security roles and responsibilities
+  description: null
+- id: A.5.3
+  level: control
+  parent: organizational
+  title: Segregation of duties
+  description: null
+- id: A.5.4
+  level: control
+  parent: organizational
+  title: Management responsibilities
+  description: null
+- id: A.5.5
+  level: control
+  parent: organizational
+  title: Contact with authorities
+  description: null
+- id: A.5.6
+  level: control
+  parent: organizational
+  title: Contact with special interest groups
+  description: null
+- id: A.5.7
+  level: control
+  parent: organizational
+  title: Threat intelligence
+  description: null
+- id: A.5.8
+  level: control
+  parent: organizational
+  title: Information security in project management
+  description: null
+- id: A.5.9
+  level: control
+  parent: organizational
+  title: Inventory of information and other associated assets
+  description: null
+- id: A.5.10
+  level: control
+  parent: organizational
+  title: Acceptable use of information and other associated assets
+  description: null
+- id: A.5.11
+  level: control
+  parent: organizational
+  title: Return of assets
+  description: null
+- id: A.5.12
+  level: control
+  parent: organizational
+  title: Classification of information
+  description: null
+- id: A.5.13
+  level: control
+  parent: organizational
+  title: Labelling of information
+  description: null
+- id: A.5.14
+  level: control
+  parent: organizational
+  title: Information transfer
+  description: null
+- id: A.5.15
+  level: control
+  parent: organizational
+  title: Access control
+  description: null
+- id: A.5.16
+  level: control
+  parent: organizational
+  title: Identity management
+  description: null
+- id: A.5.17
+  level: control
+  parent: organizational
+  title: Authentication information
+  description: null
+- id: A.5.18
+  level: control
+  parent: organizational
+  title: Access rights
+  description: null
+- id: A.5.19
+  level: control
+  parent: organizational
+  title: Information security in supplier relationships
+  description: null
+- id: A.5.20
+  level: control
+  parent: organizational
+  title: Addressing information security within supplier agreements
+  description: null
+- id: A.5.21
+  level: control
+  parent: organizational
+  title: Managing information security in the ICT supply chain
+  description: null
+- id: A.5.22
+  level: control
+  parent: organizational
+  title: Monitoring, review and change management of supplier services
+  description: null
+- id: A.5.23
+  level: control
+  parent: organizational
+  title: Information security for use of cloud services
+  description: null
+- id: A.5.24
+  level: control
+  parent: organizational
+  title: Information security incident management planning and preparation
+  description: null
+- id: A.5.25
+  level: control
+  parent: organizational
+  title: Assessment and decision on information security events
+  description: null
+- id: A.5.26
+  level: control
+  parent: organizational
+  title: Response to information security incidents
+  description: null
+- id: A.5.27
+  level: control
+  parent: organizational
+  title: Learning from information security incidents
+  description: null
+- id: A.5.28
+  level: control
+  parent: organizational
+  title: Collection of evidence
+  description: null
+- id: A.5.29
+  level: control
+  parent: organizational
+  title: Information security during disruption
+  description: null
+- id: A.5.30
+  level: control
+  parent: organizational
+  title: ICT readiness for business continuity
+  description: null
+- id: A.5.31
+  level: control
+  parent: organizational
+  title: Legal, statutory, regulatory and contractual requirements
+  description: null
+- id: A.5.32
+  level: control
+  parent: organizational
+  title: Intellectual property rights
+  description: null
+- id: A.5.33
+  level: control
+  parent: organizational
+  title: Protection of records
+  description: null
+- id: A.5.34
+  level: control
+  parent: organizational
+  title: Privacy and protection of PII
+  description: null
+- id: A.5.35
+  level: control
+  parent: organizational
+  title: Independent review of information security
+  description: null
+- id: A.5.36
+  level: control
+  parent: organizational
+  title: Compliance with policies and standards for information security
+  description: null
+- id: A.5.37
+  level: control
+  parent: organizational
+  title: Documented operating procedures
+  description: null
+- id: A.6.1
+  level: control
+  parent: people
+  title: Screening
+  description: null
+- id: A.6.2
+  level: control
+  parent: people
+  title: Terms and conditions of employment
+  description: null
+- id: A.6.3
+  level: control
+  parent: people
+  title: Information security awareness, education and training
+  description: null
+- id: A.6.4
+  level: control
+  parent: people
+  title: Disciplinary process
+  description: null
+- id: A.6.5
+  level: control
+  parent: people
+  title: Responsibilities after termination or change of employment
+  description: null
+- id: A.6.6
+  level: control
+  parent: people
+  title: Confidentiality or non-disclosure agreements
+  description: null
+- id: A.6.7
+  level: control
+  parent: people
+  title: Remote working
+  description: null
+- id: A.6.8
+  level: control
+  parent: people
+  title: Information security event reporting
+  description: null
+- id: A.7.1
+  level: control
+  parent: physical
+  title: Physical security perimeter
+  description: null
+- id: A.7.2
+  level: control
+  parent: physical
+  title: Physical entry controls
+  description: null
+- id: A.7.3
+  level: control
+  parent: physical
+  title: Securing offices, rooms and facilities
+  description: null
+- id: A.7.4
+  level: control
+  parent: physical
+  title: Physical security monitoring
+  description: null
+- id: A.7.5
+  level: control
+  parent: physical
+  title: Protecting against physical and environmental threats
+  description: null
+- id: A.7.6
+  level: control
+  parent: physical
+  title: Working in secure areas
+  description: null
+- id: A.7.7
+  level: control
+  parent: physical
+  title: Clear desk and clear screen
+  description: null
+- id: A.7.8
+  level: control
+  parent: physical
+  title: Equipment siting and protection
+  description: null
+- id: A.7.9
+  level: control
+  parent: physical
+  title: Security of assets off-premises
+  description: null
+- id: A.7.10
+  level: control
+  parent: physical
+  title: Storage media
+  description: null
+- id: A.7.11
+  level: control
+  parent: physical
+  title: Supporting utilities
+  description: null
+- id: A.7.12
+  level: control
+  parent: physical
+  title: Cabling security
+  description: null
+- id: A.7.13
+  level: control
+  parent: physical
+  title: Equipment maintenance
+  description: null
+- id: A.7.14
+  level: control
+  parent: physical
+  title: Secure disposal or re-use of equipment
+  description: null
+- id: A.8.1
+  level: control
+  parent: technological
+  title: User endpoint devices
+  description: null
+- id: A.8.2
+  level: control
+  parent: technological
+  title: Privileged access rights
+  description: null
+- id: A.8.3
+  level: control
+  parent: technological
+  title: Information access restriction
+  description: null
+- id: A.8.4
+  level: control
+  parent: technological
+  title: Access to source code
+  description: null
+- id: A.8.5
+  level: control
+  parent: technological
+  title: Secure authentication
+  description: null
+- id: A.8.6
+  level: control
+  parent: technological
+  title: Capacity management
+  description: null
+- id: A.8.7
+  level: control
+  parent: technological
+  title: Protection against malware
+  description: null
+- id: A.8.8
+  level: control
+  parent: technological
+  title: Management of technical vulnerabilities
+  description: null
+- id: A.8.9
+  level: control
+  parent: technological
+  title: Configuration management
+  description: null
+- id: A.8.10
+  level: control
+  parent: technological
+  title: Information deletion
+  description: null
+- id: A.8.11
+  level: control
+  parent: technological
+  title: Data masking
+  description: null
+- id: A.8.12
+  level: control
+  parent: technological
+  title: Data leakage prevention
+  description: null
+- id: A.8.13
+  level: control
+  parent: technological
+  title: Information backup
+  description: null
+- id: A.8.14
+  level: control
+  parent: technological
+  title: Redundancy of information processing facilities
+  description: null
+- id: A.8.15
+  level: control
+  parent: technological
+  title: Logging
+  description: null
+- id: A.8.16
+  level: control
+  parent: technological
+  title: Monitoring activities
+  description: null
+- id: A.8.17
+  level: control
+  parent: technological
+  title: Clock synchronization
+  description: null
+- id: A.8.18
+  level: control
+  parent: technological
+  title: Use of privileged utility programs
+  description: null
+- id: A.8.19
+  level: control
+  parent: technological
+  title: Installation of software on operational systems
+  description: null
+- id: A.8.20
+  level: control
+  parent: technological
+  title: Networks security
+  description: null
+- id: A.8.21
+  level: control
+  parent: technological
+  title: Security of network services
+  description: null
+- id: A.8.22
+  level: control
+  parent: technological
+  title: Segregation of networks
+  description: null
+- id: A.8.23
+  level: control
+  parent: technological
+  title: Web filtering
+  description: null
+- id: A.8.24
+  level: control
+  parent: technological
+  title: Use of cryptography
+  description: null
+- id: A.8.25
+  level: control
+  parent: technological
+  title: Secure development life cycle
+  description: null
+- id: A.8.26
+  level: control
+  parent: technological
+  title: Application security requirements
+  description: null
+- id: A.8.27
+  level: control
+  parent: technological
+  title: Secure system architecture and engineering principles
+  description: null
+- id: A.8.28
+  level: control
+  parent: technological
+  title: Secure coding
+  description: null
+- id: A.8.29
+  level: control
+  parent: technological
+  title: Security testing in development and acceptance
+  description: null
+- id: A.8.30
+  level: control
+  parent: technological
+  title: Outsourced development
+  description: null
+- id: A.8.31
+  level: control
+  parent: technological
+  title: Separation of development, test and production environments
+  description: null
+- id: A.8.32
+  level: control
+  parent: technological
+  title: Change management
+  description: null
+- id: A.8.33
+  level: control
+  parent: technological
+  title: Test information
+  description: null
+- id: A.8.34
+  level: control
+  parent: technological
+  title: Protection of information systems during audit testing
+  description: null
