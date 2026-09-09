@@ -1,5 +1,8 @@
 # grcmap — Compliance Gap-Analysis Toolkit + Bank Contingency Framework
 
+![grcmap banner](assets/brand/grcmap-readme-banner.png)
+
+
 ## Course Information
 
 | Field | Details |
@@ -102,6 +105,10 @@ pytest, Ruff, GitHub Actions.
    graph with explicit relationship semantics, and compute reproducible
    gap-analysis reports — see `grcmap/README.md` "Methodology" for the
    full pipeline.
+
+## How It Works
+
+![How grcmap works](assets/brand/grcmap-how-it-works.png)
 
 ## Repository Structure
 
