@@ -230,7 +230,7 @@ def build():
         "type": "fictional-commercial-bank",
         "jurisdiction": "PK",
         "disclaimer": (
-            "Synthetic organization used for academic and software demonstration "
+            "Synthetic organization used for software demonstration "
             "purposes. No control status represents any real institution."
         ),
     }

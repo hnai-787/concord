@@ -2,7 +2,7 @@ name: Concord
 slug: concord
 
 category: cybersecurity
-subcategory: "Information Assurance coursework"
+subcategory: "Information Assurance"
 
 status: completed
 
@@ -11,14 +11,13 @@ visibility: public
 description:
   short: "A hypothetical bank compliance framework (SBP/ISO 27001/PCI DSS/NIST CSF), plus grcmap: a cross-framework GRC mapping and gap-analysis engine grounded in the real current versions of all four frameworks."
   long: |
-    An academic contingency-planning framework originally using Habib Bank
+    A hypothetical contingency-planning framework originally using Habib Bank
     Limited (HBL) as a reference organization for a hypothetical,
     illustrative analysis — explicitly not a representation of HBL's actual
     confidential systems, controls, or compliance status. Covers a
     compliance-framework mapping (SBP, ISO/IEC 27001, PCI DSS, NIST CSF), a
     risk register, illustrative RTO/RPO tables, an incident-response
-    procedure, and a 5-phase implementation roadmap. Built for an
-    Information Assurance course (Air University, Semester 3, Fall 2024).
+    procedure, and a 5-phase implementation roadmap.
     Added grcmap: a cross-framework compliance-mapping and gap-analysis
     engine modeling the real current ISO/IEC 27001:2022, PCI DSS v4.0.1,
     NIST CSF 2.0 (parsed directly from NIST's own official data export),

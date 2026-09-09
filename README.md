@@ -5,23 +5,14 @@
 *Ships as the `grcmap` CLI/library — see below.*
 
 
-## Course Information
-
-| Field | Details |
-|---|---|
-| Course | Information Assurance |
-| Semester | Semester 3 — Fall 2024 |
-| University | Air University, Islamabad |
-| Students | Hussain Ali (232095), Jazib Ali Rizvi (232145), Shehroze Sameer (232091), Sardar Ahmad Ali (232147) |
-
 ## Overview
 
-The original coursework is a hypothetical, illustrative contingency and
+The original version is a hypothetical, illustrative contingency and
 compliance framework using Habib Bank Limited (HBL) as a reference
 organization for the exercise. The report explicitly states it "does not
 claim to represent HBL confidential systems, internal controls, or
 non-public compliance status" — every figure (RTOs, RPOs, risk ratings)
-is an academic estimate for the assignment, not real bank data.
+is an illustrative estimate, not real bank data.
 
 **New addition:** [`grcmap/`](grcmap/), a cross-framework compliance
 -mapping and gap-analysis engine. It models a fictional bank (Meridian
@@ -175,7 +166,7 @@ N/A — no screenshots for either the original report-only project or the new CL
 
 **Original:** a complete compliance mapping, risk register, RTO/RPO
 table set, incident-response outline, and implementation roadmap, all
-clearly framed as hypothetical/illustrative academic analysis.
+clearly framed as hypothetical/illustrative analysis.
 
 **New:** 53 pytest tests pass; Ruff reports zero issues. `grcmap report`
 was actually run end-to-end over all four real framework catalogs and
@@ -190,7 +181,7 @@ caught by testing the coverage algorithm directly.
 
 *(original)*
 - Entirely hypothetical — no real HBL data, systems access, or compliance audit was involved.
-- RTO/RPO and risk figures are illustrative academic estimates, not measured or sourced from any real institution.
+- RTO/RPO and risk figures are illustrative estimates, not measured or sourced from any real institution.
 
 *(this rebuild — see `grcmap/README.md` for full detail)*
 - PCI DSS and SBP ETGRM catalogs model only top-level requirements/domains in v1.
@@ -199,7 +190,7 @@ caught by testing the coverage algorithm directly.
 
 ## Future Enhancements
 
-*(original)* N/A — this was a bounded coursework deliverable.
+*(original)* N/A — this was a bounded, one-off deliverable.
 
 *(this rebuild)* Hierarchical PCI/SBP sub-requirements; NIST CSF
 Implementation Tiers at the organization/Function level; a second

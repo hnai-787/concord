@@ -12,9 +12,10 @@ does not represent HBL's real systems or compliance status.
 
 ## Assumptions
 
-- Group members listed are taken from the docx report's author table —
-  kept per the decision to preserve standard academic group-project
-  attribution.
+- Group members were originally listed (per an earlier decision to
+  preserve standard group-project attribution) in this README's course-info
+  table; that table was later removed along with other academic framing.
+  The original author list is still preserved in `docs/hbl-contingency-framework-report.docx`.
 - Flagged for the user's own awareness (per the original migration
   review): this project names a real bank as its reference organization
   for a hypothetical security-gap-style analysis. The report's own

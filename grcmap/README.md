@@ -22,7 +22,7 @@ declarative control inventory (Meridian Bank, fictional)
 
 ## Why this exists
 
-The original coursework mapped one bank against four frameworks, once,
+The original version mapped one bank against four frameworks, once,
 by hand, in a Word document. The real gap: an organization's controls
 don't change every time a new framework comes along, so real GRC
 practice treats mapping as reusable data — implement a control once, map
