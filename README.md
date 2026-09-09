@@ -1,6 +1,8 @@
-# grcmap — Compliance Gap-Analysis Toolkit + Bank Contingency Framework
+# Concord — Compliance Gap-Analysis Toolkit
 
-![grcmap banner](assets/brand/grcmap-readme-banner.png)
+![concord banner](assets/brand/concord-readme-banner.png)
+
+*Ships as the `grcmap` CLI/library — see below.*
 
 
 ## Course Information
@@ -108,7 +110,7 @@ pytest, Ruff, GitHub Actions.
 
 ## How It Works
 
-![How grcmap works](assets/brand/grcmap-how-it-works.png)
+![How concord works](assets/brand/concord-how-it-works.png)
 
 ## Repository Structure
 
