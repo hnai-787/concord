@@ -106,7 +106,7 @@ pytest, Ruff, GitHub Actions.
 ## Repository Structure
 
 ```text
-hbl-contingency-framework/
+concord/
   README.md, PROJECT_NOTES.md, CHANGELOG.md, project.yaml
   grcmap/                        NEW: the cross-framework mapping engine
     README.md                    full design writeup and research grounding
